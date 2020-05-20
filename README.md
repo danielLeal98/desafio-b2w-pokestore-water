@@ -51,17 +51,41 @@ Também foram utilizados o eslint, prettier e editor config para estilização e
 - [Prettier](https://github.com/prettier/prettier)
 - [EditorConfig](https://editorconfig.org/)
 
-### Home
+## Home
 <p align=center> 
   <img src="./src/assets/pageHome.png" width=900/>
 </p>
 
-### Modal ao finalizar a compra
+## Modal ao finalizar a compra
 - O "ganhou de volta" foi feito baseado no <a href="https://www.amedigital.com/">Ame</a>, coloquei para gerar a porcentagem de cashBack aleatóriamente).
 <br>
 <p align=center>
   <img src="./src/assets/pageModal.png" width=900/>
 </p>
+
+## Como utilizar
+
+- <h4><strong>Para executar o projeto:</strong></h4>
+
+1. Abra o terminal e digite:</br>
+
+```
+git clone <url-repositório>
+```
+
+2. Entre na pasta do projeto via terminal e digite:
+
+```
+npm install  ou  yarn install
+
+```
+
+3. Por último, execute a linha abaixo no terminal: 
+
+```
+yarn start 
+```
+
 
 ## :pencil: Autor
 <table>
