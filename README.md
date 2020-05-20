@@ -1,68 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align=center>
+  <img src="./src/assets/logo.png"/>
+</p>
 
-## Available Scripts
+<h4 align="center">
 
-In the project directory, you can run:
+ <strong align="center">
+  Uma loja virtual de Pokémon do tipo Water (Água)</strong>
+  <img src="./assets/water.png" width=430/>
+</h4>
 
-### `yarn start`
+<p align="center">
+  <a href="#page_with_curl-Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_with_curl-Sobre">Base de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-Construido-com">Construído com</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#heart_eyes-Como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#pencil-Autor">Autor</a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :page_with_curl: Sobre
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+A PokéStore é um projeto proposto para os candidatos no processo seletivo da <a href="https://ri.b2w.digital/">B2W Digital</a>, com o objetivo de fazer a criação de uma loja virtual de Pokémon, tendo que escolher 2 tipos de Pokemons um para cada (água, fogo, grama, elétrico e etc) e para cada pokemon atribuir um valor.
 
-### `yarn test`
+## Base de Dados
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Os Pokémon devem ser buscados diretamente da api <a href="https://pokeapi.co/">Pokeapi</a>, nessa api eles nos permitem passar por parametro qual tipo de pokemon nos queremos trazer na busca. Como um fã de pokémon escolhi o tipo "Grama e Água", para quem assiste ou já assistiu todo mundo sabe que o Squirtle e o Bubassauro são os melhores pokémons né? haha brincadeiras a parte.
 
-### `yarn build`
+## MVP da aplicação
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Catálogo de produtos
+- Carrinho lateral
+- Resumo do carrinho
+- 2 lojas com estilos e tipos diferentes de Pokémon
+- Barra de busca para filtrar os Pokémon
+- Botão de finalizar compra, reiniciando o processo de compra
+- Modal de obrigado ao finalizar compra
+- Salvar os dados da compra do usuário localmente para não perdê-las ao atualizar a página
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## :wrench: Construido com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Fecth](https://pt-br.reactjs.org/docs/faq-ajax.html/)
+- [SweetAlert2](https://sweetalert2.github.io/)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [BootStrap](https://react-bootstrap.github.io/getting-started/introduction/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-### `yarn eject`
+Também foram utilizados o eslint, prettier e editor config para estilização e formatação do código.
+- [ESLint](https://github.com/eslint/eslint)
+- [Prettier](https://github.com/prettier/prettier)
+- [EditorConfig](https://editorconfig.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Home
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./assets/pageHome.png" width=600/>
+<h3 align=center > Loja tipo Water (Água)</h3>
+<p align=center> 
+  <img src="./assets/water.png" width=430/>
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Modal ao finalizar a compra
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- O "ganhou de volta" foi feito baseado no <a href="https://www.amedigital.com/">Ame</a>, coloquei para gerar a porcentagem de cashBack aleatóriamente).
+<br>
+<img src="./assets/pageModal.png" width=600/>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## :pencil: Autor
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/danielLeal98"><img src=https://avatars2.githubusercontent.com/u/37132172?s=460&u=7c43bece5e3160c317bfd4b2162999753567abb5&v=4" width="100px;" alt=""/><br /><sub><b>Daniel Leal</b></sub></a><br /></td>
+  <tr>
+</table>
