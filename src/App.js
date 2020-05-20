@@ -1,25 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./index.css";
+import Header from "../src/pages/Header/header";
+import CatalogProduct from "../src/pages/CatalogProducts/catalogProducts";
+import ShoppingCart from "../src/pages/ShoppingCart/shoppingCart";
+
+import { Container, Row } from "react-bootstrap";
 
 function App() {
+  const [cartItens, setCartItens] = useState(
+    JSON.parse(localStorage.getItem("shoppingCart"))
+      ? [...JSON.parse(localStorage.getItem("shoppingCart"))]
+      : []
+  );
+  const [catalogItens, setCatalogItens] = useState([]);
+  const [pokemons, setPokemons] = useState([]);
+
+  function updateCart() {
+    const result = cartItens.map((element) => element.price * element.quantity);
+    const total = result.reduce((sum, price) => sum + price, 0);
+    localStorage.setItem("totalShoppingCart", JSON.stringify(total));
+    localStorage.setItem("shoppingCart", JSON.stringify(cartItens));
+  }
+
+  updateCart();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="container">
+      <Row>
+        <Header pokemons={pokemons} setCatalogItens={setCatalogItens} />
+      </Row>
+      <CatalogProduct
+        setCartItens={setCartItens}
+        cartItens={cartItens}
+        setCatalogItens={setCatalogItens}
+        catalogItens={catalogItens}
+        setPokemons={setPokemons}
+      />
+      <ShoppingCart cartItens={cartItens} setCartItens={setCartItens} />
+    </Container>
   );
 }
 
