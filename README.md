@@ -6,7 +6,8 @@
 
  <strong align="center">
   Uma loja virtual de Pokémon do tipo Water (Água)</strong>
-  <img src="./assets/water.png" width=430/>
+  <img src="./src/assets/water.png" width=430/>
+  
 </h4>
 
 <p align="center">
@@ -52,17 +53,17 @@ Também foram utilizados o eslint, prettier e editor config para estilização e
 
 ### Home
 
-<img src="./assets/pageHome.png" width=600/>
+<img src="./src/assets/pageHome.png" width=600/>
 <h3 align=center > Loja tipo Water (Água)</h3>
 <p align=center> 
-  <img src="./assets/water.png" width=430/>
+  <img src="./src/assets/water.png" width=430/>
 </p>
 
 ### Modal ao finalizar a compra
 
 - O "ganhou de volta" foi feito baseado no <a href="https://www.amedigital.com/">Ame</a>, coloquei para gerar a porcentagem de cashBack aleatóriamente).
 <br>
-<img src="./assets/pageModal.png" width=600/>
+<img src="./src/assets/pageModal.png" width=600/>
 
 ## :pencil: Autor
 <table>
