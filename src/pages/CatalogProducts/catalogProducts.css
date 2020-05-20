@@ -32,7 +32,7 @@
   width: auto;
 }
 .products-container-ul-li-button {
-  border: 0;
+  border: none;
   height: 50px;
   width: 100%;
   max-width: 100%;
@@ -43,6 +43,10 @@
   margin: auto;
   color: white;
 }
+.products-container-ul-li-button:active {
+  transform: translateY(4px);
+}
+
 .products-container-ul-li-button:hover {
   background-color: #4682b4;
 }
