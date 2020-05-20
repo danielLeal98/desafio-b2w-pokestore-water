@@ -7,12 +7,8 @@
 </p>
 
 <p align=center>
-  <img src="./src/assets/water.png" width=430/>
+  <img src="./src/assets/water.png" width=250/>
 </p>
-
- 
-  
-
 
 <p align="center">
   <a href="#page_with_curl-Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -57,14 +53,14 @@ Também foram utilizados o eslint, prettier e editor config para estilização e
 
 ### Home
 <p align=center> 
-  <img src="./src/assets/pageHome.png" width=430/>
+  <img src="./src/assets/pageHome.png" width=900/>
 </p>
 
 ### Modal ao finalizar a compra
 - O "ganhou de volta" foi feito baseado no <a href="https://www.amedigital.com/">Ame</a>, coloquei para gerar a porcentagem de cashBack aleatóriamente).
 <br>
 <p align=center>
-  <img src="./src/assets/pageModal.png" width=600/>
+  <img src="./src/assets/pageModal.png" width=900/>
 </p>
 
 ## :pencil: Autor
