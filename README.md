@@ -2,13 +2,17 @@
   <img src="./src/assets/logo.png"/>
 </p>
 
-<h4 align="center">
+<p align=center>   
+  <strong>Uma loja virtual de Pokémon do tipo Water (Água)</strong>
+</p>
 
- <strong align="center">
-  Uma loja virtual de Pokémon do tipo Water (Água)</strong>
+<p align=center>
   <img src="./src/assets/water.png" width=430/>
+</p>
+
+ 
   
-</h4>
+
 
 <p align="center">
   <a href="#page_with_curl-Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -52,18 +56,16 @@ Também foram utilizados o eslint, prettier e editor config para estilização e
 - [EditorConfig](https://editorconfig.org/)
 
 ### Home
-
-<img src="./src/assets/pageHome.png" width=600/>
-<h3 align=center > Loja tipo Water (Água)</h3>
 <p align=center> 
-  <img src="./src/assets/water.png" width=430/>
+  <img src="./src/assets/pageHome.png" width=430/>
 </p>
 
 ### Modal ao finalizar a compra
-
 - O "ganhou de volta" foi feito baseado no <a href="https://www.amedigital.com/">Ame</a>, coloquei para gerar a porcentagem de cashBack aleatóriamente).
 <br>
-<img src="./src/assets/pageModal.png" width=600/>
+<p align=center>
+  <img src="./src/assets/pageModal.png" width=600/>
+</p>
 
 ## :pencil: Autor
 <table>
